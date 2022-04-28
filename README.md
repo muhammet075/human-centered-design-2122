@@ -1,5 +1,8 @@
 # Human Centered Design
 
+## Case
+Deze mobiele app is specifiek gemaakt voor Marie van Driessche. Marie is Doof (met een hoofdletter), ze is doof geboren. Deze app is gemaakt om een podcast zodanig vorm te geven dat een doof persoon het zelfde meekrijgt en ervaart als iemand die niet doof is. Voorbeelden zijn, als iemand boos is en schreeuwt in een podcast dat je dat moment van het gesprek kan weergeven met een rode vetgedrukte lettertype.
+
 ## Test Rapport
 
 ### Test 1
