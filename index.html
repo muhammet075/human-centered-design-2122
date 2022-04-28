@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/ScrollToPlugin.min.js"></script>
+    <script src="https://kit.fontawesome.com/e367b28ca4.js" crossorigin="anonymous"></script>
+
+    <title>HCD</title>
+</head>
+
+<body>
+
+
+    <header>
+        <h1>Podcast</h1>
+    </header>
+    <div id="app">
+
+        <article>
+            <p>Podcast over de Klimaatverandering</p>
+            <button id="play"><i class="fa-solid fa-play"></i></button>
+        </article>
+
+        <div id="podcast">
+
+            <div id="knopjes">
+                <button id="sneller">Sneller</button>
+                <button id="slomer">Slomer</button>
+                
+            </div>
+
+
+            <ul>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😃</p>
+                        </li>
+                        <li>
+                            <p>Hallo allemaal, vandaag ga ik met Tristan praten over de klimaatverandering.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Dag, dag!</p>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Hoe gaat het met jou, Tristan?</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😌</p>
+                        </li>
+                        <li>
+                            <p>Ja goed hoor, <span class="grappig">hahaha</span> en met jou?</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Super ik had de afgelopen weekend een artikel gelezen over de klimaatverandering.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>🤔</p>
+                        </li>
+                        <li>
+                            <p>Ohhh, hmm, en waar ging dat specifiek over?</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🤣</p>
+                        </li>
+                        <li>
+                            <p>Ja over de klimaatverandering, <span class="grappig">hahahaha!</span></p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>🤔</p>
+                        </li>
+                        <li>
+                            <p>Ja dat snap ik wel hoor maar kan je wat specifieker zijn?</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🤔</p>
+                        </li>
+                        <li>
+                            <p>Hoe bedoel je dan?</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>🤨</p>
+                        </li>
+                        <li>
+                            <p>Ja, zeg maar waar het over ging?</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😐</p>
+                        </li>
+                        <li>
+                            <p>Ja over de klimaatverandering <span class="grappig">hahaha</span>, dat de temperatuur op de aarde steeds warmer wordt.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😮</p>
+                        </li>
+                        <li>
+                            <p>Ja daar moeten wij zeker iets aan gaan doen.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😟</p>
+                        </li>
+                        <li>
+                            <p>Klopt want straks over een aantal jaren smelt de zuidpool.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😟</p>
+                        </li>
+                        <li>
+                            <p>Als dat gebeurd dan hebben wij in Nederland allemaal natte voeten.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😔</p>
+                        </li>
+                        <li>
+                            <p>Ja en daar ben ik echt bang om, want dan is heel Nederland onder water.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😠</p>
+                        </li>
+                        <li>
+                            <p>Ja, dan moet jij zeker minder gaan gamen want dat kost allemaal extra stroom en dat betekent meer uitstoot, ook moet jij minder auto rijden.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😒</p>
+                        </li>
+                        <li>
+                            <p>Hoe moet ik dan naar mijn werk?</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😬</p>
+                        </li>
+                        <li>
+                            <p>Pak de trein dan?</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😑</p>
+                        </li>
+                        <li>
+                            <p>Een trein heeft toch ook uitstoot...</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😠</p>
+                        </li>
+                        <li>
+                            <p>Echt niet!</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p><span class="boos">Helemaal wel!!</span> Jij denkt dat jij alles beter weet, maar dat is niet zo!</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😠</p>
+                        </li>
+                        <li>
+                            <p>Hey, niet zo boos doen jij.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p><span class="boos">Ja dan moet jij normaal gaan praten!</span></p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="spreker spreker1" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker1naam"></h3>
+                        </li>
+                        <li>
+                            <p>🙂</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+                <li class="spreker spreker2 laatste" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="500">
+                    <ul>
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/15/15081.png" alt="spreker1"></li>
+                        <li>
+                            <h3 class="spreker2naam"></h3>
+                        </li>
+                        <li>
+                            <p>😡</p>
+                        </li>
+                        <li>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </li>
+                    </ul>
+                </li>
+
+
+
+            </ul>
+
+
+            <button id="restart">restart()</button>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body></html>

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial;
+}
+
+body {
+    background: #cecece;
+}
+
+li {
+    list-style: none;
+}
+
+#app {
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+header {
+    background: black;
+    color: #fff;
+    width: 400px;
+    padding: 20px;
+
+}
+
+article {
+    background: #fff;
+    width: 400px;
+    height: 50vh;
+    display: grid;
+    align-content: center;
+    place-items: baseline;
+    position: fixed;
+    z-index: 9999;
+    margin-top: 0px;
+}
+
+article p {
+    margin-bottom: 50px;
+}
+
+.grappig{
+    font-family: Fredoka One;
+    letter-spacing: 4px;
+    color: #2acc00;
+    font-size: 1.3em;
+}
+
+.boos{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Anton;
+    color: red;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+
+#play {
+    font-size: 5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+#resume {
+    display: none;
+}
+
+#pause2 {
+    display: none;
+}
+
+#resume2 {
+    display: none;
+}
+
+#podcast {
+    opacity: 0;
+    margin: 0 auto;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#slomer {
+    display: none;
+}
+
+.spreker1 {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    width: 270px;
+    padding: 10px 5px;
+    margin: 100px 0;
+    box-shadow: 4px 6px 7px #bdbdbd52;
+}
+
+.spreker1::after {
+    content: ">";
+    font-size: 2em;
+    position: absolute;
+    right: -20px;
+    top: 20px;
+    color: #000;
+}
+
+.spreker1 img {
+    width: 60px;
+}
+
+.spreker1 h3 {
+    font-family: Oswald;
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    font-weight: 900;
+}
+
+.spreker1 p {
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.spreker1 ul li:nth-child(1) {
+    position: absolute;
+    right: -85px;
+}
+
+.spreker1 ul li:nth-child(3) {
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    font-size: 2.3em;
+}
+
+.spreker1 ul li:nth-child(4) {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+.spreker2 {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    width: 270px;
+    padding: 10px 5px;
+    margin: 100px 0;
+    box-shadow: 4px 6px 7px #bdbdbd52;
+    margin-left: auto;
+}
+
+.spreker2::after {
+    content: "<";
+    font-size: 2em;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    color: #000;
+}
+
+.spreker2 img {
+    width: 60px;
+}
+
+.spreker2 h3 {
+    font-family: Oswald;
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    font-weight: 900;
+}
+
+.spreker2 p {
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.spreker2 ul li:nth-child(1) {
+    position: absolute;
+    left: -85px;
+}
+
+.spreker2 ul li:nth-child(3) {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    font-size: 2.3em;
+}
+
+.spreker2 ul li:nth-child(4) {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 1em;
+}
+
+#knopjes {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    right: -10px;
+    top: 65vh;
+    z-index: 9999999;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#knopjes button {
+    position: fixed;
+    background: #000;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    display: block;
+    cursor: pointer;
+    font-size: 1.2em;
+}
