@@ -7,7 +7,7 @@ Deze mobiele app is specifiek gemaakt voor Marie van Driessche. Marie is Doof (m
 Marie van Driessche.
 <br/>
 
-**What??**<br/>
+**What?**<br/>
 Een visuele podcast.
 <br/>
 
