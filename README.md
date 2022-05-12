@@ -3,21 +3,21 @@
 ## User Scenario & Case
 Deze mobiele app is specifiek gemaakt voor Marie van Driessche. Marie is Doof (met een hoofdletter), ze is doof geboren. Deze app is gemaakt om een podcast zodanig vorm te geven dat een doof persoon het zelfde meekrijgt en ervaart als iemand die niet doof is. Voorbeelden zijn, als iemand boos is en schreeuwt in een podcast dat je dat moment van het gesprek kan weergeven met een rode vetgedrukte lettertype.
 
-### Who?
+**Who?**<br/>
 Marie van Driessche.
 <br/>
 
-### What?
+**What??**<br/>
 Een visuele podcast.
 <br/>
 
-### How?
+**How?**<br/>
 Een gesproken podcast omzetten tot een visuele podacast gemaakt in HTML/CSS/JS, GSAP & AOS.JS, met een nadruk op de emoties en lettertypes.
 <br/>
 
-### Why?
+**Why?**<br/>
 Zodat Marie van Driessche ook net als andere mensen een podcast kan ervaren.
-<br/>
+<br/><br/>
 
 ## Exclusive Design Principles
 <a href="https://github.com/muhammet075/human-centered-design-2122/wiki/Exclusive-Design-Principles">Lees hier</a> de Exclusive Design Principles.
