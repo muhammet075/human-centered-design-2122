@@ -32,7 +32,7 @@ Tijdens de laatste test ronde met Marie was er weer voortuitgang. Ik had de UI v
 Marie vond wel de indicator lastig, want het lijkt meer op een scroll knop in plaats van een indicator die laat zien hoelang de podcast nog duurt. Ze had liever een indicator die horizontaal is in plaats van verticaal wat ik gemaakt had. Ze had ook liever dat ik een echte podcast had gebruikt maar ik had haar toen uitgelegd dat ik een zelf bedachte podcast had gebruikt omdat ik dan bijvoorbeeld alle emoties kan laten zien van een podcast zoals blij, lachen en boos zijn in een korte moment. Want in een echte podcast zie verschillende emoties niet zo snel in een korte stukje. Ik had haar gezegd dat dit podcast thema meer een voorbeeld is voor andere podcasts dan kan ze ervaren hoe het werkt. Toen ik dat vertelde was ze onder deindruk en vond ze het goed idee.
 
 <div style="display:flex;">
-<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-1.png" alt="screen" width="300px">
-<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-2.png" alt="screen" width="300px">
-<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-3.png" alt="screen" width="300px">
+<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-1.png" alt="screen" width="200px">
+<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-2.png" alt="screen" width="200px">
+<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-3.png" alt="screen" width="200px">
 </div>
