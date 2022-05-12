@@ -25,7 +25,7 @@ Bij de tweede test was er vergeleken met het eerste test veel vooruitgang. De po
 
 Marie vond het lastig om sommige emojis te koppelen met bepaalde emoties. Bijvoorbeeld '😑'. Zij vond dit moeilijk en ik vond dit een emoji die tussen zuchtend en geirriteerd is. Verder vond ze de podcast ook te sloom gaan en de sneller knop vond ze ook aan de slome kant. Ze wilt net als andere mensen die bijvoorbeeld een podcast op een 2x snelheid luisteren, wilt zij dan bijvoorbeeld het 2x sneller doorlezen. Ze wilde ook zien hoelang de podcast nog duurt maar dat kon ze niet zien. Ook vond ze het handig om de podcast te pauzeren en iets langer te lezen als ze het niet begreep en om even terug te scrollen naar wat er eerder gezegd werd, want dat kon nu niet.<br/>
 
-Hieronder een screenshot van de app tijdens de 2e test.
+Hieronder een screenshot van de app tijdens de 2e test.<br/>
 <img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test2.png" alt="screen" width="200px">
 
 ### Test 3
