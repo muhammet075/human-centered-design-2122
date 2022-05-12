@@ -19,6 +19,14 @@ Een gesproken podcast omzetten tot een visuele podacast gemaakt in HTML/CSS/JS, 
 Zodat Marie van Driessche ook net als andere mensen een podcast kan ervaren.
 <br/><br/>
 
+## App interface
+<div style="display:flex;">
+<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-1.png" alt="screen" width="200px">
+<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-2.png" alt="screen" width="200px">
+<img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-3.png" alt="screen" width="200px">
+</div>
+<br/><br/>
+
 ## Exclusive Design Principles
 <a href="https://github.com/muhammet075/human-centered-design-2122/wiki/Exclusive-Design-Principles">Lees hier</a> de Exclusive Design Principles.
 <br/><br/>
