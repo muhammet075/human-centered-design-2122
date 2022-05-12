@@ -20,14 +20,14 @@ Een gesproken podcast omzetten tot een visuele podacast gemaakt in HTML/CSS/JS, 
 Zodat Marie van Driessche ook net als andere mensen een podcast kan ervaren.
 <br/><br/>
 
-
-
-## Dependencies
-* HTML/CSS
-* JavaScript
-* GreenSock
-* AOS.JS
-* Google Fonts
+## Features list 
+* Podcast lezen
+* Kunnen zien wie aan het woord is
+* Kunnen zien hoelang de podcast duurt
+* Snelheid aanpassen
+* Pauzeren
+* Hervatten
+* Podcast opnieuw afspelen
 <br/><br/>
 
 ## Test Rapport
@@ -87,3 +87,37 @@ Hieronder screenshots van de app tijdens de 3e test.
 <img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-2.png" alt="screen" width="200px">
 <img src="https://raw.githubusercontent.com/muhammet075/human-centered-design-2122/main/img/test3-3.png" alt="screen" width="200px">
 </div>
+<br/><br/>
+
+
+## Dependencies
+* HTML/CSS
+* JavaScript
+* GreenSock
+* AOS.JS
+* Google Fonts
+<br/><br/>
+
+
+## Installeren
+1. Clone de repository<br/>
+```
+  git clone https://github.com/muhammet075/human-centered-design-2122
+```
+
+2. Navigeer naar het project<br/>
+```
+  cd human-centered-design-2122
+```
+
+3. Open de app in je localhost 🚀<br/>
+<br/>
+
+## Autheur
+De autheur van deze app is <a href="https://github.com/muhammet075">Muhammet Kömür</a> ✍️
+
+<br/>
+
+## License
+Dit project heeft een <a href="https://github.com/muhammet075/human-centered-design-2122/blob/main/LICENSE">MIT</a> license ✅
+
