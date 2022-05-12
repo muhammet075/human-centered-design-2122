@@ -44,7 +44,8 @@ Do's:
 * Weergeven wie aan het woord is
 * Emoties toevoegen
 <br/>
-Don'ts:
+
+Dont's:
 * Een lap tekst animeren van links naar rechts
 <br/>
 
@@ -59,7 +60,8 @@ Do's:
 * Kunnen zien hoelang de podcast duurt 
 * Pauzeren / scrollen / hervatten
 <br/>
-Don'ts:
+
+Dont's:
 * Podcast laten afspelen zonder te pauzeren
 <br/>
 
@@ -74,7 +76,8 @@ Marie vond wel de indicator lastig, want het lijkt meer op een scroll knop in pl
 Do's:
 * Echte podcast gebruiken
 <br/>
-Don'ts:
+
+Dont's:
 * Een verticale indicator gebruiken
 <br/>
 
