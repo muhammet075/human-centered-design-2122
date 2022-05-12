@@ -29,6 +29,36 @@ Zodat Marie van Driessche ook net als andere mensen een podcast kan ervaren.
 * Podcast opnieuw afspelen
 <br/><br/>
 
+
+
+
+
+## Exclusive Design Principles
+
+### Study Situation<br/>
+Marie van Driessche is Doof (met een hoofdletter), ze is doof geboren. Tijdens mijn eerste gesprek met haar heb ik de situatie onderzocht. Ze heeft 2 tolken die haar helpen met de communicatie. Als ik tegen Marie praat, kijkt zij naar 1 van haar tolken die alles omzet in gebarentaal. Vervolgens als ze gaat reageren, reageert zij in gebarentaal naar de andere tolk en die vertaalt dan wat Marie zei.<br/>
+
+Marie wilt een interface zien die niet 'te druk' is. Bijvoorbeeld vol met legenda's, veel verschillende kleuren, veel uitleg pop-ups etc. Bijvoorbeeld als iets roods is met hoofdletters hoef je het niet uitteleggen dat het boosheid betekent, want dat is algemeen bekend. Daar heb ik ook rekening mee gehouden in mijn prototypes. Ik heb bijvoorbeeld geen legendas gemaakt.<br/>
+
+Tijdens de tests ben ik erachter gekomen dat Marie de laptop net als andere mensen gebruikt. Enige verschil is dat zij closed captions, ondertietelingen enz aan moet zetten bij videos.
+<br/><br/>
+
+### Ignore Conventions<br/>
+Een podcast bestaat uit een gelduidsbestand. Omdat Marie niet kan horen, is de podcast helemaal veranderd naar een visuele chatvorimge interface met tekstbalonnen.  
+
+Omdat Marie niet horen horen, weet ze niet op wat voor manier er iets gezegd wordt in de visuele podcast. Ik heb per tekstballon een emoji toegevoegd die de emotie weergeeft hoe de spreker aan het praten is. Verder heb ik ook een boze tekst helemaal in het rood, met hoofdletters, andere font en een veel groter font-size weergegeven. Dit is iets wat normaal gesproken niet zomaar gedaan wordt in een transcriptie van een podcast of video. Maar om de ervaring het zelfde te ervaren heb ik dat wel zo gedaan.
+<br/><br/>
+
+### Prioritise Identity<br/>
+Ik merkte ook dat Marie graag iets wilt gaan doen wat andere mensen ook kunnen doen. Bijvoorbeeld een podcast sneller laten lopen. Om deze reden heb ik het een knop toegevoegd die de podcast sneller laat lopen. Ook wilde ze weten hoe de sprekers aan het woord zijn, dus op wat voor manier. In een normale transcriptie zie je geen emojis en/of andere lettertypes met kleuren. Voor Marie heb ik dat wel gedaan, hierdoor is de app ook meer uniek voor haar.
+<br/><br/>
+
+### Add Nonsense
+Om wat onzinnigs aan te brengen, heb ik een indicator bar toegevoegd die laat zien hoelang de podcast nog duurt. Marie wilde ook zien hoelang de podcast nog duurt, maar ik heb het vormgegeven net of het lijkt op een scrollbar. Tijdens de testronde moest ik wel uitleggen dat het een indicator balk is die laat zien hoelang de podcast nog duurt. Het is handig dat zij dat moet weten daarom had ik dat uitgelegd.
+<br/><br/>
+
+
+
 ## Test Rapport
 
 ### Test 1
